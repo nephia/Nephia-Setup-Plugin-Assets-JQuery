@@ -1,8 +1,8 @@
-package Voson::Setup::Plugin::Assets::JQuery;
+package Nephia::Setup::Plugin::Assets::JQuery;
 use 5.008005;
 use strict;
 use warnings;
-use parent 'Voson::Setup::Plugin';
+use parent 'Nephia::Setup::Plugin';
 
 our $VERSION = "0.01";
 
@@ -23,15 +23,15 @@ __END__
 
 =head1 NAME
 
-Voson::Setup::Plugin::Assets::JQuery -  Download and deploy jQuery into your webapp
+Nephia::Setup::Plugin::Assets::JQuery -  Download and deploy jQuery into your webapp
 
 =head1 SYNOPSIS
 
-    $ voson-setup YourApp --plugins Assets::JQuery
+    $ nephia-setup YourApp --plugins Assets::JQuery
 
 =head1 DESCRIPTION
 
-Voson::Setup::Plugin::Assets::JQuery is downloader for Voson::Setup that is downloads jQuery.
+Nephia::Setup::Plugin::Assets::JQuery is downloader for Nephia::Setup that is downloads jQuery.
 
 =head1 LICENSE
 

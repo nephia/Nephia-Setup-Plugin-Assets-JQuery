@@ -1,14 +1,14 @@
 # NAME
 
-Voson::Setup::Plugin::Assets::JQuery -  Download and deploy jQuery into your webapp
+Nephia::Setup::Plugin::Assets::JQuery -  Download and deploy jQuery into your webapp
 
 # SYNOPSIS
 
-    $ voson-setup YourApp --plugins Assets::JQuery
+    $ nephia-setup YourApp --plugins Assets::JQuery
 
 # DESCRIPTION
 
-Voson::Setup::Plugin::Assets::JQuery is downloader for Voson::Setup that is downloads jQuery.
+Nephia::Setup::Plugin::Assets::JQuery is downloader for Nephia::Setup that is downloads jQuery.
 
 # LICENSE
 

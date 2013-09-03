@@ -4,7 +4,7 @@
       "ytnobody <ytnobody@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.5.5, CPAN::Meta::Converter version 2.130880",
+   "generated_by" : "Minilla/v0.6.3, CPAN::Meta::Converter version 2.132140",
    "license" : [
       "perl_5"
    ],
@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "Voson-Setup-Plugin-Assets-JQuery",
+   "name" : "Nephia-Setup-Plugin-Assets-JQuery",
    "no_index" : {
       "directory" : [
          "t",
@@ -42,7 +42,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Voson" : "0",
+            "Nephia" : "0",
             "perl" : "5.008005"
          }
       },
@@ -53,5 +53,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/ytnobody/Nephia-Setup-Plugin-Assets-JQuery/issues"
+      },
+      "homepage" : "https://github.com/ytnobody/Nephia-Setup-Plugin-Assets-JQuery",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/ytnobody/Nephia-Setup-Plugin-Assets-JQuery.git",
+         "web" : "https://github.com/ytnobody/Nephia-Setup-Plugin-Assets-JQuery"
+      }
+   },
    "version" : "0.01"
 }
