@@ -55,13 +55,13 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/ytnobody/Nephia-Setup-Plugin-Assets-JQuery/issues"
+         "web" : "https://github.com/nephia/Nephia-Setup-Plugin-Assets-JQuery/issues"
       },
-      "homepage" : "https://github.com/ytnobody/Nephia-Setup-Plugin-Assets-JQuery",
+      "homepage" : "https://github.com/nephia/Nephia-Setup-Plugin-Assets-JQuery",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/ytnobody/Nephia-Setup-Plugin-Assets-JQuery.git",
-         "web" : "https://github.com/ytnobody/Nephia-Setup-Plugin-Assets-JQuery"
+         "url" : "git://github.com/nephia/Nephia-Setup-Plugin-Assets-JQuery.git",
+         "web" : "https://github.com/nephia/Nephia-Setup-Plugin-Assets-JQuery"
       }
    },
    "version" : "0.01"

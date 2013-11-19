@@ -3,6 +3,7 @@ use 5.008005;
 use strict;
 use warnings;
 use parent 'Nephia::Setup::Plugin';
+use Nephia::Setup::Plugin::Assets::JQuery::Source_1_10_1;
 
 our $VERSION = "0.01";
 
@@ -13,7 +14,8 @@ sub fix_setup {
 
 sub _assets_jquery {
     my ($setup, $context) = @_;
-    $setup->assets('http://code.jquery.com/jquery-1.10.1.min.js', qw/static js jquery.min.js/);
+    my $data = Nephia::Setup::Plugin::Assets::JQuery::Source_1_10_1->data;
+    $setup->spew(qw/static js jquery.min.js/, $data);
 }
 
 1;
