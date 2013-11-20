@@ -5,7 +5,7 @@ use warnings;
 use parent 'Nephia::Setup::Plugin';
 use Nephia::Setup::Plugin::Assets::JQuery::Source_1_10_1;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 sub fix_setup {
     my $self = shift;
