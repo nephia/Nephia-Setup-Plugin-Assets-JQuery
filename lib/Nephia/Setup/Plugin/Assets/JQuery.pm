@@ -3,7 +3,9 @@ use 5.008005;
 use strict;
 use warnings;
 use parent 'Nephia::Setup::Plugin';
-use Nephia::Setup::Plugin::Assets::JQuery::Source_1_10_1;
+use File::Share ':all';
+use File::Copy;
+use File::Spec;
 
 our $VERSION = "0.02";
 
@@ -14,8 +16,11 @@ sub fix_setup {
 
 sub _assets_jquery {
     my ($setup, $context) = @_;
-    my $data = Nephia::Setup::Plugin::Assets::JQuery::Source_1_10_1->data;
-    $setup->spew(qw/static js jquery.min.js/, $data);
+    my $jquery = dist_file('Nephia-Setup-Plugin-Assets-JQuery', 'jquery.min.js');
+    my $dest   = File::Spec->catfile($setup->approot, qw/static js jquery.min.js/);
+    $setup->makepath(qw/static js/);
+    $setup->diag('copying jquery.min.js into '. $dest);
+    copy($jquery, $dest);
 }
 
 1;
