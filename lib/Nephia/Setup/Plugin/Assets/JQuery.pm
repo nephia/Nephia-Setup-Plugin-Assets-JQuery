@@ -7,7 +7,7 @@ use File::Share ':all';
 use File::Copy;
 use File::Spec;
 
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 
 sub fix_setup {
     my $self = shift;

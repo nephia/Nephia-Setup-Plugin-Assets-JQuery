@@ -2,6 +2,9 @@ Revision history for Perl extension Nephia-Setup-Plugin-Assets-JQuery
 
 {{$NEXT}}
 
+0.03 2013-12-18T07:21:59Z
+    - use File::Share
+
 0.02 2013-11-20T09:41:13Z
     - add test
     - enable under offline
